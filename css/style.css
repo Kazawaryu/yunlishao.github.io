@@ -175,6 +175,12 @@ body {
     margin-top: -5px;
 }
 
+.topbar-address > ul > li {
+    list-style-type: none; 
+    line-height: 1rem; 
+    font-size: 0.8rem; 
+    font-weight: 300;
+}
 
 /*** Header ***/
 .carousel-caption {
