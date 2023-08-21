@@ -349,6 +349,57 @@ h5.people-name {
    right: 0;
 }
 
+@media (max-width: 768px) {
+    .research-link-next {
+        text-align: right;
+    }
+
+    .research-link-pre {
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+    .research-link-next {
+        font-size: 0.8rem;
+        text-align: right;
+    }
+
+    .research-link-pre {
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .research-link-next {
+        font-size: 0.6rem;
+        text-align: right;
+    }
+
+    .research-link-pre {
+        font-size: 0.6rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .navbar-brand > img {
+        width:60% !important;
+        height: 50% !important;
+    }
+
+    .navbar-brand .lab-title {
+        font-size: 0.9rem !important;
+    }
+    
+}
+
+
+
 /*** Publications ***/
 .publication-list .list-group-numbered>li::before {
     font-size: 0.9rem;
