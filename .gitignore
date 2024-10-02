@@ -1,0 +1,5 @@
+.jekll-cache/*
+.vscode/*
+_site/*
+Gemfile
+Gemfile.lock
