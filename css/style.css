@@ -188,7 +188,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .7);
+    /* background: rgba(0, 0, 0, .7); */
     z-index: 1;
 }
 
@@ -201,6 +201,11 @@ body {
 .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
+}
+
+.carousel-image-container {
+    height: 31rem;
+    object-fit: contain;
 }
 
 .carousel-inner .header-img {
@@ -282,6 +287,10 @@ h5.header-project-intro {
     object-fit: cover;
 }
 
+.people-img-width {
+    width: 20% !important;
+}
+
 h5.people-name {
     color: #0B2154;
     display: block;
@@ -312,7 +321,7 @@ h5.people-name {
 
 /*** Research Interests ***/
 .research-interests .card {
-    border: 0;
+    border: 0.1;
 }
 
 .research-interests .research-img-width {
@@ -320,11 +329,26 @@ h5.people-name {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    /* object-fit: contain; */
+}
+
+.research-interests .research-img-width {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    /* object-fit: contain; */
 }
 
 .research-interests .card-img-top {
-    height: 13.5rem;
-    object-fit: cover;
+    /* height: 13.5rem; */
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* object-fit: cover; */
 }
 
 .research-item-btn {
