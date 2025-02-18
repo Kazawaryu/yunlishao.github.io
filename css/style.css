@@ -297,6 +297,7 @@ h5.header-project-intro {
 
 .people-img-width {
     width: 20% !important;
+    object-fit: cover;
 }
 
 h5.people-name {
