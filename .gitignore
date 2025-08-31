@@ -1,7 +1,15 @@
-.jekll-cache/*
+.jekyll-cache/*
 .vscode/*
 _site/*
 Gemfile
 Gemfile.lock
 
 archive/*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jekyll metadata
+.jekyll-metadata
